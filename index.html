@@ -7,8 +7,33 @@
     <!-- Add Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* Your custom styles can go here */
-        /* ... */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: darkgrey;
+        }
+
+        .container {
+            max-width: 900px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin: 20px;
+            display: flex;
+        }
+
+        .left-column {
+            flex-basis: 50%;
+            padding: 20px;
+        }
+
+        .right-column {
+            flex-basis: 50%;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
