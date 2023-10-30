@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdullah Al Amin - Resume</title>
-    <!-- Add Bootstrap CSS and JavaScript -->
+    <title>Abdullah Al Amin - Software Engineer</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
@@ -19,29 +18,43 @@
             margin-top: 20px;
         }
 
-        header {
-            background-color: #333;
+        .resume-header {
+            background-color: #007BFF;
             color: white;
             padding: 20px;
             text-align: center;
         }
 
-        h1 {
-            font-size: 28px;
+        .resume-title {
+            font-size: 36px;
         }
 
-        h2 {
+        .resume-subtitle {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .resume-section {
+            padding: 20px;
+            margin-top: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .resume-section h2 {
             font-size: 24px;
+            color: #333;
             border-bottom: 2px solid #333;
             padding-bottom: 10px;
             margin-bottom: 10px;
         }
 
-        p {
+        .resume-section p {
             margin: 5px 0;
         }
 
-        a {
+        .resume-link {
             color: #007BFF;
             text-decoration: none;
         }
@@ -49,23 +62,23 @@
 </head>
 <body>
     <div class="container">
-        <header class="bg-dark text-white">
-            <h1>Abdullah Al Amin</h1>
-            <p>Software Engineer</p>
+        <div class="resume-header">
+            <h1 class="resume-title">Abdullah Al Amin</h1>
+            <p class="resume-subtitle">Software Engineer</p>
             <p>Email: ab.alaminshaon@gmail.com</p>
             <p>Location: Dhaka, Bangladesh</p>
-        </header>
+        </div>
 
         <div class="row">
             <div class="col-md-6">
-                <section>
+                <div class="resume-section">
                     <h2>Summary</h2>
                     <p>
                         Passionate software engineer with 5+ years of experience in software development, specializing in .NET Core web development, SQL Server, and ERP systems like Microsoft Dynamics NAV. My expertise includes seamless system integration using Azure services to enhance operational efficiency. I'm committed to personal growth and contribute to collaborative projects, aiming for continuous refinement in the dynamic field of software development. My personality traits include being detail-oriented, innovative, and a team player.
                     </p>
-                </section>
+                </div>
 
-                <section>
+                <div class="resume-section">
                     <h2>Professional Experience</h2>
                     <p><strong>Software Engineer</strong></p>
                     <p>Dhaka, Bangladesh</p>
@@ -81,37 +94,36 @@
                     <p>Dhaka, Bangladesh</p>
                     <p>Star Computer System Ltd</p>
                     <p>Date: 08/2018 - 02/2019</p>
-                </section>
+                </div>
             </div>
 
             <div class="col-md-6">
-                <section>
+                <div class="resume-section">
                     <h2>Education</h2>
                     <p>Bachelor of Science in Computer Science and Engineering</p>
                     <p>Bangladesh University of Business & Technology</p>
                     <p>CGPA: 3.29 / 4.0</p>
                     <p>Date: 2013 – 2018</p>
-                </section>
+                </div>
 
-                <section>
+                <div class="resume-section">
                     <h2>Achievements / Certifications</h2>
                     <p>Intra BUBT Programming Contest</p>
                     <p>A programming contest among the students of BUBT.</p>
 
-                    <p>C# (Basic) Certificate | HackerRank</p>
-                    <p><a href="https://www.hackerrank.com/certificates/0f7f8492fe8b">View Certificate</a></p>
+                    <p>C# (Basic) Certificate | <a class="resume-link" href="https://www.hackerrank.com/certificates/0f7f8492fe8b">View Certificate</a></p>
 
                     <p>Certification for Web Application Development (Asp Dot Net) | BASIS</p>
                     <p>Got Student of the Batch place.</p>
-                </section>
+                </div>
 
-                <section>
+                <div class="resume-section">
                     <h2>Languages</h2>
                     <p>Bangla (Native)</p>
                     <p>English (Advanced)</p>
-                </section>
+                </div>
 
-                <section>
+                <div class="resume-section">
                     <h2>Major Projects</h2>
                     <!-- Project 1 -->
                     <h3>ERP OF POWER MINISTRY</h3>
@@ -135,7 +147,7 @@
                     <p>Technology Used: Okta, .NET Core 6.0, Entity Framework Core, SQL Server, Angular, RxJS, xUnit, SQLite, ARM Template, Azure Pipeline, Docker</p>
                     <p>Technical Responsibility: Designing and developing efficient, secure, and scalable web applications using .NET Core, managing and optimizing SQL Server databases for data integrity and performance, orchestrating intricate system integrations, and ensuring the reliability of solutions through comprehensive testing while actively contributing to collaborative projects to foster innovation in the ever-evolving landscape of technology.</p>
                     <p>Project Duration: 2+ Years</p>
-					<p>Short Description: This internal platform supports global Integrations, Apps, Services, and Automation. It's an Azure-based information highway connecting diverse capabilities with a focus on principles, architecture, frameworks, and tools.</p>
+                    <p>Short Description: This internal platform supports global Integrations, Apps, Services, and Automation. It's an Azure-based information highway connecting diverse capabilities with a focus on principles, architecture, frameworks, and tools.</p>
 
                     <!-- Project 4 -->
                     <h3>INTEGRATION SERVICE</h3>
@@ -150,10 +162,9 @@
                     <p>Technology Used: Net Core, Identity Framework, Web API, Entity Framework, Vue JS, HTML Reporting, MSSQL</p>
                     <p>Technical Responsibility: Developed the system and integrated with ERP through Web API. Integrated with Microsoft Share Point. Introduced approval workflow process and Email Approval system.</p>
                     <p>Short Description: This is a self-service portal for all the users of the power division who are using ERP. Leave application, foreign tour application, and salary bill application services are available.</p>
-                </section>
+                </div>
             </div>
         </div>
     </div>
 </body>
 </html>
-
