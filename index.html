@@ -1,90 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Your Name - Software Engineer Resume</title>
-  <!-- Add Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Custom CSS -->
-  <style>
-    body {
-      background-color: #f4f4f4;
-      font-family: Arial, sans-serif;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Software Engineer</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
 
-    .resume {
-      background-color: #fff;
-      margin: 20px;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+        }
 
-    h1, h2 {
-      color: #333;
-    }
+        .resume-header {
+            text-align: center;
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
 
-    .contact-info {
-      margin-top: 10px;
-    }
+        .resume-header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
 
-    .skills {
-      margin-top: 20px;
-    }
+        .resume-header h2 {
+            font-size: 20px;
+        }
 
-    .education, .experience {
-      margin-top: 20px;
-    }
+        .row {
+            margin-top: 20px;
+        }
 
-    .date {
-      font-size: 16px;
-      color: #777;
-    }
-  </style>
+        .left-column {
+            padding-right: 20px;
+        }
+
+        .right-column {
+            padding-left: 20px;
+        }
+
+        .section-title {
+            font-size: 24px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="resume">
-      <h1>Your Name</h1>
-      <p class="lead">Software Engineer</p>
-      <div class="contact-info">
-        <p>Email: your.email@example.com</p>
-        <p>Phone: (123) 456-7890</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourname" target="_blank">LinkedIn Profile</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">GitHub Profile</a></p>
-      </div>
-      
-      <h2>Skills</h2>
-      <ul class="skills">
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>Java</li>
-        <li>HTML/CSS</li>
-        <li>React</li>
-        <li>Node.js</li>
-      </ul>
-      
-      <h2>Education</h2>
-      <div class="education">
-        <p><strong>Master of Computer Science</strong></p>
-        <p>University Name, City, State</p>
-        <p class="date">Graduated: May 20XX</p>
-      </div>
+    <div class="container">
+        <div class="resume-header">
+            <h1>Your Name</h1>
+            <h2>Software Engineer</h2>
+        </div>
 
-      <h2>Experience</h2>
-      <div class="experience">
-        <p><strong>Software Engineer</strong></p>
-        <p>Company Name, City, State</p>
-        <p class="date">June 20XX - Present</p>
-        <p>Worked on project X, which involved...</p>
-        <p>Implemented feature Y, resulting in a 30% performance improvement...</p>
-      </div>
+        <div class="row">
+            <div class="col-md-6 left-column">
+                <div class="section-title">Contact Information</div>
+                <p>Email: your.email@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/yourname" target="_blank">LinkedIn Profile</a></p>
+                <p>GitHub: <a href="https://github.com/yourusername" target="_blank">GitHub Profile</a></p>
+
+                <div class="section-title">Skills</div>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>HTML/CSS</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 right-column">
+                <div class="section-title">Education</div>
+                <p><strong>Master of Computer Science</strong></p>
+                <p>University Name, City, State</p>
+                <p>Graduated: May 20XX</p>
+
+                <div class="section-title">Experience</div>
+                <p><strong>Software Engineer</strong></p>
+                <p>Company Name, City, State</p>
+                <p>June 20XX - Present</p>
+                <p>Worked on project X, which involved...</p>
+                <p>Implemented feature Y, resulting in a 30% performance improvement...</p>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <!-- Add Bootstrap JS (optional) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
