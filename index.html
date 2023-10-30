@@ -7,82 +7,106 @@
     <!-- Add Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* Your custom styles can go here */
-        /* ... */
+        /* Custom CSS for centering and layout */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: darkgrey;
+        }
+
+        .container {
+            max-width: 900px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin: 20px;
+            display: flex;
+        }
+
+        .left-column {
+            flex-basis: 50%;
+            padding: 20px;
+        }
+
+        .right-column {
+            flex-basis: 50%;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <header class="bg-dark text-white text-center p-4">
-                    <h1>Abdullah Al Amin</h1>
-                    <p>Software Engineer</p>
-                    <p>Email: ab.alaminshaon@gmail.com</p>
-                    <p>Location: Dhaka, Bangladesh</p>
-                </header>
+        <div class="left-column">
+            <header class="bg-dark text-white text-center p-4">
+                <h1>Abdullah Al Amin</h1>
+                <p>Software Engineer</p>
+                <p>Email: ab.alaminshaon@gmail.com</p>
+                <p>Location: Dhaka, Bangladesh</p>
+            </header>
 
-                <section id="summary" class="p-3">
-                    <h2>Summary</h2>
-                    <p>
-                        Passionate software engineer with 5+ years of experience in software development, specializing in .NET Core web development, SQL Server, and ERP systems like Microsoft Dynamics NAV. My expertise includes seamless system integration using Azure services to enhance operational efficiency. I'm committed to personal growth and contribute to collaborative projects, aiming for continuous refinement in the dynamic field of software development. My personality traits include being detail-oriented, innovative, and a team player.
-                    </p>
-                </section>
+            <section id="summary" class="p-3">
+                <h2>Summary</h2>
+                <p>
+                    Passionate software engineer with 5+ years of experience in software development, specializing in .NET Core web development, SQL Server, and ERP systems like Microsoft Dynamics NAV. My expertise includes seamless system integration using Azure services to enhance operational efficiency. I'm committed to personal growth and contribute to collaborative projects, aiming for continuous refinement in the dynamic field of software development. My personality traits include being detail-oriented, innovative, and a team player.
+                </p>
+            </section>
 
-                <section id="experience" class="p-3">
-                    <h2>Professional Experience</h2>
-                    <p><strong>Software Engineer</strong></p>
-                    <p>Dhaka, Bangladesh</p>
-                    <p>Brain Station 23 Limited</p>
-                    <p>Date: 02/2021 – Present</p>
+            <section id="achievements" class="p-3">
+                <h2>Achievements / Certifications</h2>
+                <p>Intra BUBT Programming Contest</p>
+                <p>A programming contest among the students of BUBT.</p>
 
-                    <p><strong>Software Engineer</strong></p>
-                    <p>Dhaka, Bangladesh</p>
-                    <p>Techvision Ltd</p>
-                    <p>Date: 02/2019 - 01/2021</p>
+                <p>C# (Basic) Certificate | HackerRank</p>
+                <p><a href="https://www.hackerrank.com/certificates/0f7f8492fe8b">View Certificate</a></p>
 
-                    <p><strong>Junior Software Engineer</strong></p>
-                    <p>Dhaka, Bangladesh</p>
-                    <p>Star Computer System Ltd</p>
-                    <p>Date: 08/2018 - 02/2019</p>
-                </section>
-            </div>
+                <p>Certification for Web Application Development (Asp Dot Net) | BASIS</p>
+                <p>Got Student of the Batch place.</p>
+            </section>
 
-            <div class="col-md-6">
-                <section id="education" class="p-3">
-                    <h2>Education</h2>
-                    <p>Bachelor of Science in Computer Science and Engineering</p>
-                    <p>Bangladesh University of Business & Technology</p>
-                    <p>CGPA: 3.29 / 4.0</p>
-                    <p>Date: 2013 – 2018</p>
-                </section>
+            <section id="skills" class="p-3">
+                <h2>Skills</h2>
+                <h3>Technical</h3>
+                <p>C#, .Net Core, Angular, Unit Test & Integration Test, MS SQL Server, Azure Services, Function APP, Logic APP, API Management, Event Grid, Power BI, Reporting</p>
+                <h3>Professional</h3>
+                <p>Software Development, Communication, Team Work, Problem Solving, Leadership</p>
+            </section>
 
-                <section id="achievements" class="p-3">
-                    <h2>Achievements / Certifications</h2>
-                    <p>Intra BUBT Programming Contest</p>
-                    <p>A programming contest among the students of BUBT.</p>
+            <section id="languages" class="p-3">
+                <h2>Languages</h2>
+                <p>Bangla (Native)</p>
+                <p>English (Advanced)</p>
+            </section>
+        </div>
 
-                    <p>C# (Basic) Certificate | HackerRank</p>
-                    <p><a href="https://www.hackerrank.com/certificates/0f7f8492fe8b">View Certificate</a></p>
+        <div class="right-column">
+            <section id="experience" class="p-3">
+                <h2>Professional Experience</h2>
+                <p><strong>Software Engineer</strong></p>
+                <p>Dhaka, Bangladesh</p>
+                <p>Brain Station 23 Limited</p>
+                <p>Date: 02/2021 – Present</p>
 
-                    <p>Certification for Web Application Development (Asp Dot Net) | BASIS</p>
-                    <p>Got Student of the Batch place.</p>
-                </section>
+                <p><strong>Software Engineer</strong></p>
+                <p>Dhaka, Bangladesh</p>
+                <p>Techvision Ltd</p>
+                <p>Date: 02/2019 - 01/2021</p>
 
-                <section id="skills" class="p-3">
-                    <h2>Skills</h2>
-                    <h3>Technical</h3>
-                    <p>C#, .Net Core, Angular, Unit Test & Integration Test, MS SQL Server, Azure Services, Function APP, Logic APP, API Management, Event Grid, Power BI, Reporting</p>
-                    <h3>Professional</h3>
-                    <p>Software Development, Communication, Team Work, Problem Solving, Leadership</p>
-                </section>
+                <p><strong>Junior Software Engineer</strong></p>
+                <p>Dhaka, Bangladesh</p>
+                <p>Star Computer System Ltd</p>
+                <p>Date: 08/2018 - 02/2019</p>
+            </section>
 
-                <section id="languages" class="p-3">
-                    <h2>Languages</h2>
-                    <p>Bangla (Native)</p>
-                    <p>English (Advanced)</p>
-                </section>
-            </div>
+            <section id="education" class="p-3">
+                <h2>Education</h2>
+                <p>Bachelor of Science in Computer Science and Engineering</p>
+                <p>Bangladesh University of Business & Technology</p>
+                <p>CGPA: 3.29 / 4.0</p>
+                <p>Date: 2013 – 2018</p>
+            </section>
         </div>
     </div>
     <!-- Add Bootstrap JavaScript (optional) -->
