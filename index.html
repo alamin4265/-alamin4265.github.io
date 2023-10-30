@@ -1,117 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdullah Al Amin - Resume</title>
-    <!-- Add Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* Custom CSS for centering and layout */
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: darkgrey;
-        }
+  <meta charset="UTF-8">
+  <title>Your Name - Software Engineer Resume</title>
+  <!-- Add Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
 
-        .container {
-            max-width: 900px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-            margin: 20px;
-            display: flex;
-        }
+    .resume {
+      background-color: #fff;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
 
-        .left-column {
-            flex-basis: 50%;
-            padding: 20px;
-        }
+    h1, h2 {
+      color: #333;
+    }
 
-        .right-column {
-            flex-basis: 50%;
-            padding: 20px;
-        }
-    </style>
+    .contact-info {
+      margin-top: 10px;
+    }
+
+    .skills {
+      margin-top: 20px;
+    }
+
+    .education, .experience {
+      margin-top: 20px;
+    }
+
+    .date {
+      font-size: 16px;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="left-column">
-            <header class="bg-dark text-white text-center p-4">
-                <h1>Abdullah Al Amin</h1>
-                <p>Software Engineer</p>
-                <p>Email: ab.alaminshaon@gmail.com</p>
-                <p>Location: Dhaka, Bangladesh</p>
-            </header>
+  <div class="container">
+    <div class="resume">
+      <h1>Your Name</h1>
+      <p class="lead">Software Engineer</p>
+      <div class="contact-info">
+        <p>Email: your.email@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourname" target="_blank">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">GitHub Profile</a></p>
+      </div>
+      
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>HTML/CSS</li>
+        <li>React</li>
+        <li>Node.js</li>
+      </ul>
+      
+      <h2>Education</h2>
+      <div class="education">
+        <p><strong>Master of Computer Science</strong></p>
+        <p>University Name, City, State</p>
+        <p class="date">Graduated: May 20XX</p>
+      </div>
 
-            <section id="summary" class="p-3">
-                <h2>Summary</h2>
-                <p>
-                    Passionate software engineer with 5+ years of experience in software development, specializing in .NET Core web development, SQL Server, and ERP systems like Microsoft Dynamics NAV. My expertise includes seamless system integration using Azure services to enhance operational efficiency. I'm committed to personal growth and contribute to collaborative projects, aiming for continuous refinement in the dynamic field of software development. My personality traits include being detail-oriented, innovative, and a team player.
-                </p>
-            </section>
-
-            <section id="achievements" class="p-3">
-                <h2>Achievements / Certifications</h2>
-                <p>Intra BUBT Programming Contest</p>
-                <p>A programming contest among the students of BUBT.</p>
-
-                <p>C# (Basic) Certificate | HackerRank</p>
-                <p><a href="https://www.hackerrank.com/certificates/0f7f8492fe8b">View Certificate</a></p>
-
-                <p>Certification for Web Application Development (Asp Dot Net) | BASIS</p>
-                <p>Got Student of the Batch place.</p>
-            </section>
-
-            <section id="skills" class="p-3">
-                <h2>Skills</h2>
-                <h3>Technical</h3>
-                <p>C#, .Net Core, Angular, Unit Test & Integration Test, MS SQL Server, Azure Services, Function APP, Logic APP, API Management, Event Grid, Power BI, Reporting</p>
-                <h3>Professional</h3>
-                <p>Software Development, Communication, Team Work, Problem Solving, Leadership</p>
-            </section>
-
-            <section id="languages" class="p-3">
-                <h2>Languages</h2>
-                <p>Bangla (Native)</p>
-                <p>English (Advanced)</p>
-            </section>
-        </div>
-
-        <div class="right-column">
-            <section id="experience" class="p-3">
-                <h2>Professional Experience</h2>
-                <p><strong>Software Engineer</strong></p>
-                <p>Dhaka, Bangladesh</p>
-                <p>Brain Station 23 Limited</p>
-                <p>Date: 02/2021 – Present</p>
-
-                <p><strong>Software Engineer</strong></p>
-                <p>Dhaka, Bangladesh</p>
-                <p>Techvision Ltd</p>
-                <p>Date: 02/2019 - 01/2021</p>
-
-                <p><strong>Junior Software Engineer</strong></p>
-                <p>Dhaka, Bangladesh</p>
-                <p>Star Computer System Ltd</p>
-                <p>Date: 08/2018 - 02/2019</p>
-            </section>
-
-            <section id="education" class="p-3">
-                <h2>Education</h2>
-                <p>Bachelor of Science in Computer Science and Engineering</p>
-                <p>Bangladesh University of Business & Technology</p>
-                <p>CGPA: 3.29 / 4.0</p>
-                <p>Date: 2013 – 2018</p>
-            </section>
-        </div>
+      <h2>Experience</h2>
+      <div class="experience">
+        <p><strong>Software Engineer</strong></p>
+        <p>Company Name, City, State</p>
+        <p class="date">June 20XX - Present</p>
+        <p>Worked on project X, which involved...</p>
+        <p>Implemented feature Y, resulting in a 30% performance improvement...</p>
+      </div>
     </div>
-    <!-- Add Bootstrap JavaScript (optional) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </div>
+
+  <!-- Add Bootstrap JS (optional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
